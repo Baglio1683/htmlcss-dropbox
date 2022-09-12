@@ -212,3 +212,41 @@ border: 1px solid red;
 }
 
 
+
+/* Section two of container-2  */
+
+
+.contact-sell{
+
+width: 100%; 
+text-align: left;
+
+
+/* debug */
+
+height: 190px;
+background-color: royalblue;
+border: 1px solid black;
+
+}
+
+.contact-sell h5{
+
+ text-align: center;   
+ margin-bottom: 20px;
+}
+
+
+
+.contact-sell > div{
+
+display: flex;
+align-content: flex-start;
+justify-content: space-between;
+ margin-bottom: 20px;
+
+/* debug */
+background-color: tan;
+border: 1px solid green;
+
+}
