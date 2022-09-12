@@ -16,14 +16,61 @@ html{
 
 /* Settings Principal Boxes  */
 
+/* SECTION HEADER  */
+
 header{
 
 display: flex;
 position: fixed;    
-height: 20vh;
+height: 15vh;
 width: 100%;
+justify-content: space-between;
+align-content: flex-start;
 
 /* debug */
 background-color: blueviolet;
 
 }
+
+.item-header{
+
+display: flex;
+justify-content: space-around;
+align-content: flex-start;
+align-items: center;
+column-gap: 15px;
+padding: 10px;
+
+/* debug */
+background-color: brown;
+
+}
+
+.card-header{
+
+
+/* debug */
+background-color: yellow;
+border: 1px solid black;
+
+}
+
+
+
+
+/* SECTION CONTAINER-1  */
+
+.container-1{
+
+width: 90%;
+
+/* debug */
+background-color: darkorange;
+
+}
+
+
+
+
+
+
