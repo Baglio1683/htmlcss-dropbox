@@ -431,3 +431,23 @@ align-content: flex-start;
 
 }
 
+/* Section 8 of Answer  */
+
+.answer{
+
+width: 60%;
+margin: 0 auto; 
+text-align: center;
+text-align: left;
+
+
+
+/* debug */
+background-color: blue;
+
+}
+
+.answer h2,p{
+
+ padding-bottom: 2em;   
+}
