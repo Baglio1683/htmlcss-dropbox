@@ -1,0 +1,29 @@
+
+/* Default Settings  */
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+html{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Settings Principal Boxes  */
+
+header{
+
+display: flex;
+position: fixed;    
+height: 20vh;
+width: 100%;
+
+/* debug */
+background-color: blueviolet;
+
+}
