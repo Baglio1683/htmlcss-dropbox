@@ -332,3 +332,26 @@ background-color: darkolivegreen;
 border: 1px solid white;
 
 }
+
+/* Section 5 of container-2 */
+
+
+.info-clients{
+
+width: 100%;
+text-align: left;
+
+/* debug */
+color: orchid;
+border: 1px solid red;
+height: 200px;
+
+}
+
+.info-clients h2{
+
+padding-top: 50px;
+padding-bottom: 30px;
+
+}
+
