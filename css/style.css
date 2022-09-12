@@ -17,7 +17,7 @@ html{
 main{
 
 position: relative;
-top: 15vh;
+top: 10vh;
 
 }
 
@@ -28,15 +28,16 @@ top: 15vh;
 header{
 
 display: flex;
-height: 15vh;
+height: 10vh;
 width: 100%;
 justify-content: space-between;
 align-content: flex-start;
 position: fixed;
 z-index: 998;
+background-color: white;
 
 /* debug */
-background-color: blueviolet;
+/* background-color: blueviolet; */
 
 }
 
@@ -50,16 +51,17 @@ column-gap: 15px;
 padding: 10px;
 
 /* debug */
-background-color: brown;
+/* background-color: brown; */
 
 }
 
 .card-header{
 
+font-size: small;
 
 /* debug */
-background-color: yellow;
-border: 1px solid black;
+/* background-color: yellow; */
+/* border: 1px solid black; */
 
 }
 
@@ -71,46 +73,86 @@ border: 1px solid black;
 .jumbo{
 
 width: 100%;
-text-align: center;
 
 /* debug */
-background-color: darkslateblue;
-height: 300px;
+background-color: rgb(35, 140, 182);
+/* height: 300px; */
+}
+
+.jumbo h1{
+
+font-size: -webkit-xxx-large;
+width: 90%;
+
 }
 
 
 .container-1{
 
-width: 80%;
+width: 62%;
 margin: 0 auto; 
 
 /* debug */
-background-color: darkorange;
-border: 1px solid black;
-height: 290px;
+/* background-color: darkorange; */
+/* border: 1px solid black; */
+/* height: 290px; */
+
 }
 
 .jumbo-section{
 
 display: flex;
-justify-content: center;
 align-content: flex-start;
-column-gap: 16px;
 align-items: center;
+margin-bottom: 50px;
 
 /* debug */
-background-color: yellowgreen;
-border: 1px solid black;
-height: 200px;
+/* background-color: yellowgreen; */
+/* border: 1px solid black; */
+/* height: 200px; */
 
 }
 
 .card-jumbo{
-
+   
 /* debug */
-height: 100px;
-background-color:violet;
-border: 1px solid black;
+/* height: 100px; */
+
+/* background-color:violet; */
+/* border: 1px solid black; */
+
+}
+
+.card-jumbo p{
+
+margin-bottom: 13px;
+
+}
+
+.card-jumbo span{
+
+display: inline-block;
+margin-bottom: 13px;   
+
+}
+
+.card-jumbo img{
+
+position: relative;
+top: 35px;
+
+}
+
+.Arrow{
+
+  font-size: large; 
+    
+}
+
+.fa-arrow-down:before {
+
+ font-size: xx-large;   
+
 }
 
 
@@ -120,14 +162,16 @@ border: 1px solid black;
 .container-2{
 
 
-    width: 60%;
-    margin: 0 auto; 
-    text-align: center;
-    /* debug */
-    background-color: pink;
-    border: 1px solid black;
+width: 52%;
+margin: 0 auto; 
+
+/* debug */
+background-color: pink;
+border: 1px solid black;
    
 }
+
+
 
 
 /* Section one of container-2  */
@@ -138,16 +182,18 @@ display: flex;
 margin-top: 18px;
 
 /* debug */
-background-color: tomato;
-border: 1px solid black;
-align-content: flex-start;
+/* background-color: tomato; */
+/* border: 1px solid black; */
+/* align-content: flex-start; */
 
 }
 
 .check{
 
+margin-right: 25px;
+
 /* debug */
-background-color: yellowgreen;
+/* background-color: yellowgreen; */
 
 }
 
@@ -449,9 +495,14 @@ margin-bottom: 100px;
 
 }
 
-.answer h2,p{
-
+.answer h2{
  padding-bottom: 2em;   
+}
+
+.answer p{
+
+ padding-bottom: 2em;
+
 }
 
 
@@ -500,3 +551,38 @@ background-color: yellow;
 border: 1px solid black;
 
 }
+
+
+/* Utility Settings  */
+
+
+.button{
+
+padding-left: 0.5em;
+padding-right: 0.5em;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+text-align: center;
+
+}
+
+
+.back-blue{
+
+    background-color: aqua;
+
+}
+
+.text-white{
+
+color: white;
+
+}
+
+img{
+
+    max-width: 100%;
+    
+    
+    }
+    
