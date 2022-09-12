@@ -442,12 +442,61 @@ text-align: left;
 
 
 
+
 /* debug */
 background-color: blue;
+margin-bottom: 100px;
 
 }
 
 .answer h2,p{
 
  padding-bottom: 2em;   
+}
+
+
+/* Setting Section Footer  */
+
+footer{
+
+width: 100%;
+
+/* debug */
+background-color: black;
+
+
+}
+
+
+.toolbar{
+
+display: flex;
+align-content: flex-start;
+height: 200px;
+
+
+}
+
+.toolbar div {
+
+width: calc(100% / 5);
+height: 100%;
+
+/* debug */
+
+background-color: rosybrown;
+border: 1px solid black;
+
+}
+
+.language{
+
+padding-top: 20px;
+text-align: left;
+width: 15%;
+
+/* debug */
+background-color: yellow;
+border: 1px solid black;
+
 }
