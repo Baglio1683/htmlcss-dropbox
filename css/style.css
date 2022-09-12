@@ -269,8 +269,66 @@ height: 400px;
 
 width: calc(100% / 2);
 
+
 /* debug */
 background-color: skyblue;
 border: 1px dashed yellow;
+}
+
+/* Section 4 of container-2  */
+
+.description-cards{
+
+width: 100%;
+
+/* debug */
+background-color: lightsalmon;
+border: 1px dashed black;
+height: 665px;
+
+}
+
+.description-cards > div{
+
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+column-gap: 5px;
+row-gap: 10px;
+
+
+
+/* debug */
+background-color:chocolate
+border: 1px solid red;
+
+}
+
+.card{
+
+width: calc(100% / 3 - 5px);
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+
+/* debug */
+background-color: deeppink;
+border: 1px dashed blue;
+height: 300px;
+
+
+
+}
+
+.card div{
+
+height: calc(100% / 3);   
+width: 100%;
+text-align: left;
+
+/* debug */
+background-color: darkolivegreen;
+border: 1px solid white;
 
 }
