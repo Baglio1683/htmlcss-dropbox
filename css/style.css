@@ -250,3 +250,27 @@ background-color: tan;
 border: 1px solid green;
 
 }
+
+/* Section 3 of container-2  */
+
+.image-partner{
+
+display: flex;
+width: 100%;
+
+    /* debug */
+background-color: springgreen;
+border: 1px solidd black;
+height: 400px;
+
+}
+
+.image-partner div{
+
+width: calc(100% / 2);
+
+/* debug */
+background-color: skyblue;
+border: 1px dashed yellow;
+
+}
