@@ -126,8 +126,7 @@ border: 1px solid black;
     /* debug */
     background-color: pink;
     border: 1px solid black;
-    height: 100000000px;
-
+   
 }
 
 
@@ -354,4 +353,60 @@ padding-top: 50px;
 padding-bottom: 30px;
 
 }
+
+/* Section 6 , Section of sponsor */
+
+.sponsor{
+
+width: 100%;
+display: flex;
+align-content: flex-start;
+
+/* debug */
+background-color: purple;
+border: 1px solid black;
+height: 500px;
+
+}
+
+.sponsor-card{
+
+width: calc(100% / 3);
+height: 100%;
+display: flex;
+align-content: flex-start;
+flex-wrap: wrap;
+
+/* debug */
+background-color: mediumslateblue;
+border: 1px solid black;
+
+}
+
+.lateral{
+
+height: 50%;
+width: 50%;
+
+/* debug */
+background-color: darkcyan;
+border: 1px dashed yellow;
+
+}
+
+.central-sponsor{
+
+width: 100%;
+height: calc(100% / 3);
+
+/* debug */
+background-color: orange;
+border: 1px dashed black;
+
+}
+
+
+
+
+
 
