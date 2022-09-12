@@ -406,7 +406,28 @@ border: 1px dashed black;
 }
 
 
+/* Section 7 of Business Version Section  */
 
+.Business-Version{
 
+width: 100%;
 
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* debug */
+background-color: darkturquoise;
+height: 200px;
+
+}
+
+.flex-btw{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+
+}
 
