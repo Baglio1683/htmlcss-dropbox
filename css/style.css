@@ -629,23 +629,41 @@ width: 60%;
 margin: 0 auto; 
 text-align: center;
 text-align: left;
-
-
+margin-top: 100px;
 
 
 /* debug */
-background-color: blue;
+/* background-color: blue; */
 margin-bottom: 100px;
 
 }
 
 .answer h2{
- padding-bottom: 2em;   
+
+ padding-bottom: 1.5em;   
+
+}
+
+.answer div{
+
+padding-top: 15px;
+padding-bottom: 15px;
+
 }
 
 .answer p{
 
- padding-bottom: 2em;
+  display: inline-block;  
+  padding-bottom: 1em;
+  padding-top: 1em;   
+  padding-right: 250px;
+ 
+}
+
+.bord-up-down{
+
+border-bottom: 1px solid black;
+border-top: 1px solid black;   
 
 }
 
