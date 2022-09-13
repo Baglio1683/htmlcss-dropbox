@@ -584,12 +584,6 @@ margin-top: -40px;
 
 }
 
-#mg-top{
-
-margin-top: -20px;
-
-}
-
 
 
 
@@ -599,14 +593,11 @@ margin-top: -20px;
 .Business-Version{
 
 width: 100%;
-
 display: flex;
 justify-content: center;
 align-items: center;
-
-/* debug */
-background-color: darkturquoise;
-height: 200px;
+background-color: #B4D0E7;
+min-height: 200px;
 
 }
 
@@ -619,7 +610,18 @@ align-content: flex-start;
 
 }
 
-/* Section 8 of Answer  */
+.flex-btw h2 {
+
+
+padding-top: 50px;
+padding-bottom: 30px;
+width: 65%;
+color: #61082B;
+
+
+}
+
+/* SECTION 8 of Answer  */
 
 .answer{
 
@@ -728,7 +730,11 @@ border: 1px solid black;
 }
 
 
+.back-white{
 
+ background-color: white;   
+
+}
 
 
 .back-blue{
