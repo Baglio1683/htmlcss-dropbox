@@ -355,21 +355,38 @@ display: flex;
 width: 100%;
 
     /* debug */
-background-color: springgreen;
-border: 1px solidd black;
-height: 400px;
+/* background-color: springgreen; */
+/* border: 1px solidd black; */
+/* height: 400px; */
 
 }
 
-.image-partner div{
 
-width: calc(100% / 2);
+.w-65{
 
-
-/* debug */
-background-color: skyblue;
-border: 1px dashed yellow;
+ width: 65%;   
 }
+
+.w-35{
+
+width: 30%;
+padding: 15px;
+}
+
+.w-35 h3{
+
+padding-bottom: 15px;
+
+}
+
+.w-35 p{
+
+padding-bottom: 15px;
+    
+}
+  
+
+
 
 /* Section 4 of container-2  */
 
@@ -630,6 +647,12 @@ text-align: center;
 
     }
 
+.border-black{
+
+border: 1px solid black;
+
+}
+
 
 
 
@@ -700,3 +723,4 @@ padding-left: 10px;
 padding-bottom: 10px;
 
 }
+
