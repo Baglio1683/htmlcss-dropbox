@@ -218,7 +218,8 @@ column-gap: 15px;
 width: calc(100% / 3 - 5px);
 margin: 5px;
 text-align: center;
-border: 1px solid rgb(173, 173, 173);
+width: 80%;
+border: 1px solid rgb(173, 173, 173); 
 
 /* debug  */
 /* background-color: coral; */
@@ -246,7 +247,7 @@ color: rgb(0, 119, 255);
 
 .title-col{
 
-border-bottom: 1px solid rgb(173, 173, 173); ;
+border-bottom: 1px solid rgb(173, 173, 173); 
 
 
 }
@@ -299,36 +300,52 @@ margin-bottom: 10px;
 
 width: 100%; 
 text-align: left;
-
+margin-top: 30px;
+border: 1px solid rgb(173, 173, 173); 
+margin-bottom: 30px;
 
 /* debug */
 
-height: 190px;
-background-color: royalblue;
-border: 1px solid black;
+/* height: 190px; */
+/* background-color: royalblue; */
+/* border: 1px solid black; */
 
 }
 
 .contact-sell h5{
 
  text-align: center;   
- margin-bottom: 20px;
+ padding-bottom: 5px;
+ margin-top: 5px;
+border-bottom: 1px solid black;
+
 }
 
 
+.contact-sell h3{
+
+padding-bottom: 10px;
+
+}
 
 .contact-sell > div{
 
 display: flex;
-align-content: flex-start;
+align-content: center;
 justify-content: space-between;
 margin-bottom: 20px;
+padding-top: 15px;
+padding-left: 10px;
+padding-right: 10px;
 
-/* debug */
-background-color: tan;
-border: 1px solid green;
+/* * debug */ 
+/* background-color: tan; */
+/* border: 1px solid green; */
+
 
 }
+
+
 
 /* Section 3 of container-2  */
 
@@ -665,5 +682,21 @@ font-size: small;
 
 padding-bottom: 20px;
 border-bottom: 1px solid black;
+
+}
+
+
+.w-600{
+
+
+font-weight: 600;
+
+}
+
+.large-80{
+
+width: 80%;   
+padding-left: 10px;
+padding-bottom: 10px;
 
 }
