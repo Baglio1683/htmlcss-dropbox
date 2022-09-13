@@ -472,11 +472,12 @@ width: 25%;
 
 width: 100%;
 text-align: left;
+margin-bottom: 100px;
 
 /* debug */
-color: orchid;
-border: 1px solid red;
-height: 200px;
+/* color: orchid; */
+/* border: 1px solid red; */
+/* height: 200px; */
 
 }
 
@@ -484,10 +485,11 @@ height: 200px;
 
 padding-top: 50px;
 padding-bottom: 30px;
+width: 65%;
 
 }
 
-/* Section 6 , Section of sponsor */
+/* SECTION 6 , Section of sponsor */
 
 .sponsor{
 
