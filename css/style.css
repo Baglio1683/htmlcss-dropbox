@@ -496,11 +496,11 @@ width: 65%;
 width: 100%;
 display: flex;
 align-content: flex-start;
+height: 500px;
 
 /* debug */
-background-color: purple;
-border: 1px solid black;
-height: 500px;
+/* background-color: purple; */
+/* border: 1px solid black; */
 
 }
 
@@ -513,8 +513,8 @@ align-content: flex-start;
 flex-wrap: wrap;
 
 /* debug */
-background-color: mediumslateblue;
-border: 1px solid black;
+/* background-color: mediumslateblue; */
+/* border: 1px solid black; */
 
 }
 
@@ -522,26 +522,79 @@ border: 1px solid black;
 
 height: 50%;
 width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
 
 /* debug */
-background-color: darkcyan;
-border: 1px dashed yellow;
+/* background-color: darkcyan; */
+/* border: 1px dashed yellow; */
 
 }
+
+.lateral img{
+
+ width: 60%;   
+ filter: invert(1);
+
+}
+
+
+
+
 
 .central-sponsor{
 
 width: 100%;
 height: calc(100% / 3);
+background-color: #f5f5f5;
+padding-top: 20px;
+padding-left: 20px;
 
 /* debug */
-background-color: orange;
-border: 1px dashed black;
+/* background-color: orange; */
+/* border: 1px dashed black; */
 
 }
 
 
-/* Section 7 of Business Version Section  */
+
+.central-sponsor img{
+
+width: 60%;
+
+
+}
+
+.central-sponsor p{
+
+
+margin-top: -20px;
+
+}
+
+.line-down{
+
+height: 1px;
+width: 25%;
+border-bottom: 1px solid black;
+margin-left: 20px;
+margin-top: -40px;
+
+}
+
+#mg-top{
+
+margin-top: -20px;
+
+}
+
+
+
+
+
+/* SECTION 7 of Business Version Section  */
 
 .Business-Version{
 
@@ -742,6 +795,60 @@ font-weight: 600;
 width: 80%;   
 padding-left: 10px;
 padding-bottom: 10px;
+
+}
+
+.back-A2D39B{
+
+background-color: #A2D39B;
+
+}
+
+.back-61082B{
+
+background-color: #61082B;
+
+}
+
+.back-0093CE{
+
+ background-color: #0093CE;
+    
+}
+
+.back-FF1C1C{
+
+ background-color: #FF1C1C;   
+}
+
+.back-D5001F{
+
+background-color: #D5001F;
+
+}
+
+.back-B4D0E7{
+
+background-color: #B4D0E7;
+
+}
+
+.back-0D2481{
+
+  background-color: #0D2481; 
+    
+}
+
+.back-FFD830{
+
+background-color: #FFD830;
+
+}
+
+
+.bor-D1E9CD{
+
+border: 12px solid #D1E9CD; 
 
 }
 
