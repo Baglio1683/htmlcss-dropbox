@@ -45,17 +45,37 @@ justify-content: space-around;
 align-content: flex-start;
 align-items: center;
 column-gap: 15px;
-padding: 10px;
+padding-left: 10px;
+padding-right: 10px;
+
+/* debug */
+height: 100%;
 
 }
 
 .card-header{
 
-font-size: small;
-
+height: 100%;
+display: flex;
+align-items: center;
 }
 
 
+
+.card-header a{
+
+  text-decoration: none;
+  color: black; 
+  font-size: small;
+    
+}
+
+.card-header:hover{
+
+
+border-bottom: 1px solid black;
+
+}
 
 
 /* SECTION CONTAINER-1  */
@@ -124,6 +144,7 @@ top: 60px;
 .fa-arrow-down:before {
 
  font-size: xx-large;   
+ color: black;
 
 }
 
@@ -771,3 +792,38 @@ border: 12px solid #D1E9CD;
 
 }
 
+/* Hover Utility  */
+
+.button.back-blue:hover{
+
+background-color: rgb(126, 214, 255);
+
+}
+
+.button-big.back-blue:hover{
+
+background-color: rgb(126, 214, 255);
+   
+}
+
+.button.border-black:hover{
+
+color: rgba(0, 0, 0, 0.541);
+border-color: rgba(0, 0, 0, 0.541);
+
+}
+
+.button-big.back-white:hover{
+
+background-color: whitesmoke;
+color:  rgba(0, 0, 0, 0.541);
+
+}
+
+
+.no-line{
+
+text-decoration: none;
+color: black;
+
+}
