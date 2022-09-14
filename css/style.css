@@ -179,6 +179,43 @@ margin-bottom: 55px;
 
 }
 
+.check label{
+
+padding: 0.5em;
+background-color: #B4D0E7;
+border-radius: 1em;
+position: relative;
+
+}
+
+.check input{
+
+display: none;    
+
+}
+
+
+.radio-btn{
+
+display: inline-block;   
+position: absolute;
+height: 20px;
+width: 20px;
+background-color: #0061ff;
+border-radius: 20px;
+vertical-align: middle;
+
+}
+
+.check span{
+
+padding-left: 23px;
+
+}
+
+
+
+
 
 .flex-colum{
 
@@ -565,6 +602,14 @@ border-top: 1px solid black;
 
 }
 
+.dropdown {
+
+position: relative;
+display: none;
+    
+  }
+
+
 .ans{
    
 display: none;
@@ -867,12 +912,6 @@ text-decoration: none;
 }
 
 
-.bord-up-down:active{
-
-content: "Ciaoooooooooo";
-
-
-}
 
 .dropdown {
     position: relative;
@@ -917,3 +956,47 @@ display: block;
 display: none;
     
 }
+
+
+.bord-up-down:hover .small{
+
+cursor: default;
+
+}
+
+.drop:hover .small{
+
+cursor: default;
+
+}
+
+
+.check:hover .radio-btn{
+
+background-color: #619eff; ;
+
+}
+
+.check:hover span{
+
+color:  #619eff; ;
+
+}
+
+
+
+
+.check:active .radio-btn{
+
+border: 3px solid  #0061ff;
+background-color: rgb(221, 217, 217);
+
+} 
+
+
+.check:active span{
+
+color: white;
+
+} 
+    
