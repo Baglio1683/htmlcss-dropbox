@@ -585,7 +585,13 @@ display: flex;
 align-content: flex-start;
 color: white;
 
-/* height: 200px; */
+
+}
+
+.toolbar a{
+
+text-decoration: none;
+color: white;    
 
 }
 
@@ -825,5 +831,11 @@ color:  rgba(0, 0, 0, 0.541);
 
 text-decoration: none;
 color: black;
+
+}
+
+.toolbar li:hover{
+
+    border-bottom: 1px solid white;
 
 }
